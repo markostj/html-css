@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Za skaliranje da bude jednako na mobitelu i na PC-u -->
+    <link rel="stylesheet" href="style.css">
+    <title> Osijek - studentski grad </title>
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+           <div class="naslov">    <!-- s klasama odvajamo dijelove kako bi mogli uredivati posebno dijelove u css-u -->
+               Osijek - studentski grad
+           </div>
+           <div class="nav">
+               <ul>
+                  <li><a class="active" href="#home">Home</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                </ul>
+           </div>
+        </header>
+       <div class="glavna-slika">
+            <img src="studenti.jpg" alt="Studenti na promociji" height="400px" width="72%"> <!-- alt se koristi ako se ne moze ucitati slika onda umjesto slike pise to-->
+        </div>
+        <content>
+            <main>
+                <div class="tekst">
+                <b> <!--Paragraf-->
+                    Osječko Sveučilište je obrazovna ustanova koja povezivanjem znanstvenog istraživanja, umjetničkog stvaralaštva, studija i nastave razvija znanost, struku i umjetnost. Pripremajući studente za obavljanje profesionalnih djelatnosti na temelju znanstvenih spoznaja i metoda, kao i umjetničkih vrijednosti, obrazuje znanstveni i umjetnički pomladak.  Studenti sveučilišta sudjeluju u ostvarivanju društvenih interesa studenata te promiču međunarodnu, posebice europsku suradnju, u visokom obrazovanju te znanstvenoj i umjetničkoj djelatnosti.
+                </b>
+                <p>
+                    Svrha Sveučilišta je uključivanje studenata u znanstveno-istraživački rad i razvijanje istraživačkog duha kako bi se kod studenata razvila kritičnost i otvorenost prema novim spoznajama i istovremeno razvila osobnost, te spremnost na zajednički rad, prihvaćanje moralnih i etičkih načela kao preduvjet, a kojim će nakon završetaka studija, doprinijeti razvoju demokratskog društva i istovremeno se uključiti u europsku zajednicu društva znanja.
+                </p>
+                <p>
+                    U skladu s navedenom definicijom i misijom Sveučilišta, vidljivo je da je visoko obrazovanje od iznimne važnosti za društvenu zajednicu jer visoko obrazovanje doprinosi regionalnom razvoju i nacionalnom razvoju društva.
+                </p>
+            </div>
+              </main>
+               
+          
+                <aside>
+                            <div class="forma"> 
+                                <p>Koji biste fakultet htjeli upisati</p> 
+                                <form>       <!-- forme -->
+                                    <input type="radio" name="fakultet" value="poljoprivredni" checked>  Poljoprivredni  <br> <!--checked da se stavi pocetni odgovr na to -->
+                                    <input type="radio" name="fakultet" value="građevinski" >  Građevinski  <br>
+                                    <input type="radio" name="fakultet" value="medicinski" >  Medicinski <br>
+                                    <input type="submit" value="Pošalji odgovor">
+                                </form>
+                    </div>
+                </aside>
+            </content>
+                <footer>
+                   <table>    <!-- tablica, tr je stupac, a td je polje -->
+                    <tr>
+                        <td><a href="http://www.pfos.unios.hr/"> Poljoprivredni fakultet</a> </td>
+                        <td>  Vladimira Preloga 1 </td>
+                    </tr>
+                    <tr>
+                        <td> <a href="http://www.gfos.unios.hr/">Građevinski fakultet</a> </td>
+                        <td>Ul. kralja Petra Svačića 1</td>
+                    </tr>
+                     <tr>
+                         <td><a href="http://www.mefos.unios.hr/index.php/en/">Medicinski fakultet</a></td>
+                         <td>Ul. Josipa Huttlera 4</td>
+                     </tr>  
+                </table>
+                   <br>
+                    <div clas="slika">
+                        <img src="kampus.jpg" alt="Studentski dom Kampus" height="300px" width="350px"> 
+                        <img src="1.jpg" alt="Rektorat" height="300px" width="350px">
+                        <img src="tvrda.jpg" alt="tvrda" height="300px" width="350px">
+                    </div>
+                </footer>
+            
+            
+       </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color:#0066ff
+}
+.wrapper{
+    background-color:#fff;
+    width:90%;
+    margin:0 auto;
+    border-radius:20px;
+    padding:10px;
+
+}
+.naslov {
+    font-size: 70px;
+    text-align: center;
+    background-color: #fff;;
+}
+.nav{
+    font-size:16px;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    padding: 0px 10.5% 0px 10.5%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 14px 30px; */
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.glavna-slika {
+position:relative; 
+text-align: center; 
+background: url(sveučilište.jpg) no-repeat;
+background-position: 2%;
+background-size: 250px 250px;
+}
+.glavna-slika img{
+    position:relative;
+    left:120px; 
+}
+content{
+    overflow:hidden;
+    display:block;
+}
+main {
+    float:left;
+    width:78%;
+}
+aside{
+    float:right;
+}
+aside p{
+    font-size: 18px;
+}
+b {
+    font-size: 20px;
+    text-align: center;
+}
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size:20px;
+}
+td a:hover{
+    color: black;
+}
+td a:visited {
+  color: red;
+}
+footer {
+    position:relative;
+    text-align: center
+}
+img{
+    padding:20px;
+}
